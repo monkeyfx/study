@@ -1,143 +1,44 @@
-2019-08-06 21:46:20,909 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
-2019-08-06 21:46:20,939 INFO o.a.j.JMeter: Loading user properties from: /Users/chankit/software/apache-jmeter-3.3/bin/user.properties
-2019-08-06 21:46:20,940 INFO o.a.j.JMeter: Loading system properties from: /Users/chankit/software/apache-jmeter-3.3/bin/system.properties
-2019-08-06 21:46:20,948 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
-2019-08-06 21:46:20,948 INFO o.a.j.JMeter: Version 3.3 r1808647
-2019-08-06 21:46:20,949 INFO o.a.j.JMeter: java.version=1.8.0_181
-2019-08-06 21:46:20,949 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
-2019-08-06 21:46:20,949 INFO o.a.j.JMeter: os.name=Mac OS X
-2019-08-06 21:46:20,949 INFO o.a.j.JMeter: os.arch=x86_64
-2019-08-06 21:46:20,949 INFO o.a.j.JMeter: os.version=10.13.3
-2019-08-06 21:46:20,949 INFO o.a.j.JMeter: file.encoding=UTF-8
-2019-08-06 21:46:20,949 INFO o.a.j.JMeter: Max memory     =536870912
-2019-08-06 21:46:20,949 INFO o.a.j.JMeter: Available Processors =4
-2019-08-06 21:46:20,960 INFO o.a.j.JMeter: Default Locale=中文 (中国)
-2019-08-06 21:46:20,960 INFO o.a.j.JMeter: JMeter  Locale=中文 (中国)
-2019-08-06 21:46:20,960 INFO o.a.j.JMeter: JMeterHome=/Users/chankit/software/apache-jmeter-3.3
-2019-08-06 21:46:20,961 INFO o.a.j.JMeter: user.dir  =/Users/chankit/software/nodejs
-2019-08-06 21:46:20,961 INFO o.a.j.JMeter: PWD       =/Users/chankit/software/nodejs
-2019-08-06 21:46:20,963 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: chandeMacBook-Pro.local FullName: localhost
-2019-08-06 21:46:24,444 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.apple.laf.AquaLookAndFeel [Mac OS X, System]
-2019-08-06 21:46:24,460 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
-2019-08-06 21:46:25,925 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
-2019-08-06 21:46:25,927 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
-2019-08-06 21:46:28,882 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.assertions.BSFAssertion
-2019-08-06 21:46:29,810 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.extractor.BSFPostProcessor
-2019-08-06 21:46:29,927 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.modifiers.BSFPreProcessor
-2019-08-06 21:46:30,047 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2019-08-06 21:46:30,048 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2019-08-06 21:46:30,048 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2019-08-06 21:46:30,048 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
-2019-08-06 21:46:30,048 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
-2019-08-06 21:46:30,048 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
-2019-08-06 21:46:30,851 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
-2019-08-06 21:46:30,852 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Users/chankit/software/apache-jmeter-3.3/bin/proxyserver.jks
-2019-08-06 21:46:31,115 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.java.sampler.BSFSampler
-2019-08-06 21:46:31,227 INFO o.a.j.s.FileServer: Default base='/Users/chankit/software/nodejs'
-2019-08-06 21:46:31,433 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
-2019-08-06 21:46:31,436 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler
-2019-08-06 21:46:31,727 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.timers.BSFTimer
-2019-08-06 21:46:31,805 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.visualizers.BSFListener
-2019-08-06 21:46:32,269 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
-2019-08-06 21:46:32,269 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
-2019-08-06 21:46:32,269 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
-2019-08-06 21:46:32,269 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
-2019-08-06 22:01:37,331 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2019-08-06 22:01:37,334 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2019-08-06 22:01:37,334 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2019-08-06 22:01:37,346 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2019-08-06 22:01:37,617 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
-2019-08-06 22:01:37,617 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
-2019-08-06 22:01:37,617 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2019-08-06 22:01:37,618 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
-2019-08-06 22:01:37,629 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2019-08-06 22:01:37,630 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2019-08-06 22:01:37,632 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
-2019-08-06 22:01:37,670 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
-2019-08-06 22:01:37,670 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
-2019-08-06 22:01:37,671 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2019-08-06 22:01:37,673 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2019-08-06 22:01:50,361 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2019-08-06 22:01:50,361 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2019-08-06 22:01:50,365 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2019-08-06 22:01:50,508 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
-2019-08-06 22:01:50,509 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
-2019-08-06 22:01:50,509 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2019-08-06 22:01:50,509 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
-2019-08-06 22:01:50,516 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2019-08-06 22:01:50,516 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2019-08-06 22:01:50,522 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
-2019-08-06 22:01:50,525 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
-2019-08-06 22:01:50,525 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
-2019-08-06 22:01:50,526 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2019-08-06 22:01:50,526 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2019-08-06 22:02:21,641 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2019-08-06 22:02:21,642 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2019-08-06 22:02:21,646 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2019-08-06 22:02:21,799 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
-2019-08-06 22:02:21,799 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
-2019-08-06 22:02:21,800 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2019-08-06 22:02:21,800 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
-2019-08-06 22:02:21,801 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2019-08-06 22:02:21,802 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2019-08-06 22:02:21,804 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
-2019-08-06 22:02:21,806 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
-2019-08-06 22:02:21,806 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
-2019-08-06 22:02:21,806 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2019-08-06 22:02:21,806 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2019-08-06 22:08:20,477 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2019-08-06 22:08:20,479 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2019-08-06 22:08:20,482 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2019-08-06 22:08:20,599 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
-2019-08-06 22:08:20,600 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
-2019-08-06 22:08:20,600 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2019-08-06 22:08:20,600 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
-2019-08-06 22:08:20,601 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2019-08-06 22:08:20,601 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2019-08-06 22:08:20,601 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
-2019-08-06 22:08:20,603 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
-2019-08-06 22:08:20,603 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
-2019-08-06 22:08:20,603 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2019-08-06 22:08:20,603 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2019-08-06 22:27:21,579 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2019-08-06 22:27:21,583 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2019-08-06 22:27:21,586 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2019-08-06 22:27:21,900 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
-2019-08-06 22:27:21,901 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
-2019-08-06 22:27:21,901 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2019-08-06 22:27:21,901 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
-2019-08-06 22:27:21,902 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2019-08-06 22:27:21,903 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2019-08-06 22:27:21,903 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
-2019-08-06 22:27:21,908 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
-2019-08-06 22:27:21,908 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
-2019-08-06 22:27:21,909 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2019-08-06 22:27:21,909 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2019-08-06 22:35:54,073 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2019-08-06 22:35:54,076 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2019-08-06 22:35:54,079 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2019-08-06 22:35:54,231 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
-2019-08-06 22:35:54,232 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
-2019-08-06 22:35:54,232 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2019-08-06 22:35:54,232 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
-2019-08-06 22:35:54,234 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2019-08-06 22:35:54,235 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2019-08-06 22:35:54,237 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
-2019-08-06 22:35:54,241 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
-2019-08-06 22:35:54,241 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
-2019-08-06 22:35:54,242 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2019-08-06 22:35:54,243 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
-2019-08-06 22:35:56,703 INFO o.a.j.e.StandardJMeterEngine: Running the test!
-2019-08-06 22:35:56,703 INFO o.a.j.s.SampleEvent: List of sample_variables: []
-2019-08-06 22:35:56,705 INFO o.a.j.g.u.JMeterMenuBar: setRunning(true, *local*)
-2019-08-06 22:35:56,828 INFO o.a.j.e.StandardJMeterEngine: Starting ThreadGroup: 1 : 线程组
-2019-08-06 22:35:56,829 INFO o.a.j.e.StandardJMeterEngine: Starting 1 threads for group 线程组.
-2019-08-06 22:35:56,829 INFO o.a.j.e.StandardJMeterEngine: Thread will continue on error
-2019-08-06 22:35:56,829 INFO o.a.j.t.ThreadGroup: Starting thread group... number=1 threads=1 ramp-up=1 perThread=1000.0 delayedStart=false
-2019-08-06 22:35:56,829 INFO o.a.j.t.ThreadGroup: Started thread group number 1
-2019-08-06 22:35:56,830 INFO o.a.j.e.StandardJMeterEngine: All thread groups have been started
-2019-08-06 22:35:56,831 INFO o.a.j.t.JMeterThread: Thread started: 线程组 1-1
-2019-08-06 22:35:56,833 INFO o.a.j.t.JMeterThread: Thread is done: 线程组 1-1
-2019-08-06 22:35:56,833 INFO o.a.j.t.JMeterThread: Thread finished: 线程组 1-1
-2019-08-06 22:35:56,834 INFO o.a.j.e.StandardJMeterEngine: Notifying test listeners of end of test
-2019-08-06 22:35:56,834 INFO o.a.j.g.u.JMeterMenuBar: setRunning(false, *local*)
+2019-08-07 00:44:31,245 INFO o.a.j.u.JMeterUtils: Setting Locale to zh_CN
+2019-08-07 00:44:31,286 INFO o.a.j.JMeter: Loading user properties from: /Users/chankit/software/apache-jmeter-3.3/bin/user.properties
+2019-08-07 00:44:31,289 INFO o.a.j.JMeter: Loading system properties from: /Users/chankit/software/apache-jmeter-3.3/bin/system.properties
+2019-08-07 00:44:31,298 INFO o.a.j.JMeter: Copyright (c) 1998-2017 The Apache Software Foundation
+2019-08-07 00:44:31,298 INFO o.a.j.JMeter: Version 3.3 r1808647
+2019-08-07 00:44:31,299 INFO o.a.j.JMeter: java.version=1.8.0_181
+2019-08-07 00:44:31,299 INFO o.a.j.JMeter: java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+2019-08-07 00:44:31,299 INFO o.a.j.JMeter: os.name=Mac OS X
+2019-08-07 00:44:31,299 INFO o.a.j.JMeter: os.arch=x86_64
+2019-08-07 00:44:31,300 INFO o.a.j.JMeter: os.version=10.13.3
+2019-08-07 00:44:31,300 INFO o.a.j.JMeter: file.encoding=UTF-8
+2019-08-07 00:44:31,300 INFO o.a.j.JMeter: Max memory     =536870912
+2019-08-07 00:44:31,300 INFO o.a.j.JMeter: Available Processors =4
+2019-08-07 00:44:31,312 INFO o.a.j.JMeter: Default Locale=中文 (中国)
+2019-08-07 00:44:31,313 INFO o.a.j.JMeter: JMeter  Locale=中文 (中国)
+2019-08-07 00:44:31,313 INFO o.a.j.JMeter: JMeterHome=/Users/chankit/software/apache-jmeter-3.3
+2019-08-07 00:44:31,313 INFO o.a.j.JMeter: user.dir  =/Users/chankit/software/nodejs
+2019-08-07 00:44:31,313 INFO o.a.j.JMeter: PWD       =/Users/chankit/software/nodejs
+2019-08-07 00:44:31,316 INFO o.a.j.JMeter: IP: 127.0.0.1 Name: chandeMacBook-Pro.local FullName: localhost
+2019-08-07 00:44:34,939 INFO o.a.j.g.a.LookAndFeelCommand: Using look and feel: com.apple.laf.AquaLookAndFeel [Mac OS X, System]
+2019-08-07 00:44:34,946 INFO o.a.j.JMeter: Loaded icon properties from org/apache/jmeter/images/icon.properties
+2019-08-07 00:44:36,816 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must contain the string: '.functions.'
+2019-08-07 00:44:36,817 INFO o.a.j.e.u.CompoundVariable: Note: Function class names must not contain the string: '.gui.'
+2019-08-07 00:44:39,624 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.assertions.BSFAssertion
+2019-08-07 00:44:40,856 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.extractor.BSFPostProcessor
+2019-08-07 00:44:40,951 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.modifiers.BSFPreProcessor
+2019-08-07 00:44:41,032 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/html is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-08-07 00:44:41,032 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xhtml+xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-08-07 00:44:41,032 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for application/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-08-07 00:44:41,032 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/xml is org.apache.jmeter.protocol.http.parser.LagartoBasedHtmlParser
+2019-08-07 00:44:41,033 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/vnd.wap.wml is org.apache.jmeter.protocol.http.parser.RegexpHTMLParser
+2019-08-07 00:44:41,033 INFO o.a.j.p.h.s.HTTPSamplerBase: Parser for text/css is org.apache.jmeter.protocol.http.parser.CssParser
+2019-08-07 00:44:41,817 INFO o.a.j.e.KeyToolUtils: keytool found at 'keytool'
+2019-08-07 00:44:41,819 INFO o.a.j.p.h.p.ProxyControl: HTTP(S) Test Script Recorder SSL Proxy will use keys that support embedded 3rd party resources in file /Users/chankit/software/apache-jmeter-3.3/bin/proxyserver.jks
+2019-08-07 00:44:42,170 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.java.sampler.BSFSampler
+2019-08-07 00:44:42,280 INFO o.a.j.s.FileServer: Default base='/Users/chankit/software/nodejs'
+2019-08-07 00:44:42,600 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.config.MongoSourceElement
+2019-08-07 00:44:42,601 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.protocol.mongodb.sampler.MongoScriptSampler
+2019-08-07 00:44:43,078 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.timers.BSFTimer
+2019-08-07 00:44:43,229 INFO o.a.j.g.u.MenuFactory: Skipping org.apache.jmeter.visualizers.BSFListener
+2019-08-07 00:44:43,741 INFO o.a.j.s.SampleResult: Note: Sample TimeStamps are START times
+2019-08-07 00:44:43,742 INFO o.a.j.s.SampleResult: sampleresult.default.encoding is set to ISO-8859-1
+2019-08-07 00:44:43,742 INFO o.a.j.s.SampleResult: sampleresult.useNanoTime=true
+2019-08-07 00:44:43,743 INFO o.a.j.s.SampleResult: sampleresult.nanoThreadSleep=5000
