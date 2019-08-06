@@ -1,1 +1,14 @@
-3-2 PXC同步原理
+GTID (全局事务ID)
+SHOW STATUS LIKE "%uuid"
+
+wsrep_local_state_uuid  //集群uuid
+wsrep_gcomm_uuid //node uuid
+
+transaction_id
+
+SHOW BINLOG EVENTS IN ‘mysql_bin.000001’//查看 xid 集群第几个事务
+
+SHOW STATUS LIKE “%wsrep_last_committed%”
+
+
+Master. Slave
