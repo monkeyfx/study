@@ -1,0 +1,2 @@
+binlog_format = row
+log-bin = mysql_bin
