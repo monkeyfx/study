@@ -1,19 +1,54 @@
+binlog 介绍
+--------------
 SQL语句
 DDL语句
 DML语句（除了SELECT）
-------------------
-binlog_format = row 
-log-bin = mysql_bin
--------------------
+持续时间
+
+binlog_format=row 
+log-bin=mysql_bin
+
 三种模式：
 statement
 row
 mixed
---------------
+
 两种文件
 日志文件
 索引文件
 mysql_bin.00001
 mysql_bin.index
+
+SHOW MASTER LOGS；
+SHOW BINLOG EVENTS IN ‘mysql_bin.000001’//查看
+PURGE MASTER LOGS TO 'mysql-bin.000013'; //清除
+show variables like '%binlog_format%' //查看binlog模式
+
+Row 模式
+
+优点：
+清晰记录了每条记录的细节
+数据同步安全可靠
+同步时出现行锁的更少
+
+
+缺点：
+日志体积很大，浪费空间
+数据同步频繁，速度慢
+
+
+
+Statement 模式
+
+每一条会修改数据的sql语句会记录到binlog中
+体积小 节省I/O
+集群节点同步速度快
+
+某些函数不同步
+
+
+MIXED 模式
+
+
 
 
