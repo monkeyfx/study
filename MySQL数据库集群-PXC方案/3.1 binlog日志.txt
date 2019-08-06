@@ -1,2 +1,19 @@
-binlog_format = row
+SQL语句
+DDL语句
+DML语句（除了SELECT）
+------------------
+binlog_format = row 
 log-bin = mysql_bin
+-------------------
+三种模式：
+statement
+row
+mixed
+--------------
+两种文件
+日志文件
+索引文件
+mysql_bin.00001
+mysql_bin.index
+
+
