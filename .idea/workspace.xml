@@ -1,19 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="0712ac5f-73e6-4826-a3a2-32523a93c41a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/nodejs/demo/32_readfile.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodejs/demo/33_writefiles.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodejs/demo/35_rename.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodejs/demo/36_unlink.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodejs/demo/37_readdir.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodejs/demo/38_mkdir.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodejs/demo/39_rmdir.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodejs/demo/40_watch.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodejs/demo/41_readstream.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodejs/demo/42_writesteam.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nodejs/demo/43_promisify.js" afterDir="false" />
-    </list>
+    <list default="true" id="0712ac5f-73e6-4826-a3a2-32523a93c41a" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,8 +65,9 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="23" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="5" />
+    <option name="y" value="314" />
     <option name="width" value="1210" />
     <option name="height" value="777" />
   </component>
@@ -147,15 +136,15 @@
       <option name="presentableId" value="Default" />
       <updated>1565004279409</updated>
       <workItem from="1565004280885" duration="6732000" />
-      <workItem from="1565053110265" duration="274000" />
+      <workItem from="1565053110265" duration="520000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7006000" />
+    <option name="totallyTimeSpent" value="7252000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1210" height="777" extended-state="6" />
+    <frame x="5" y="314" width="1210" height="777" extended-state="0" />
     <layout>
       <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.255137" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
