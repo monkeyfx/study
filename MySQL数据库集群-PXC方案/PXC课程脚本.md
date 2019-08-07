@@ -2,7 +2,7 @@
 一、安装Percona数据库
 1. 离线安装Percona
 进入RPM安装文件目录，执行下面的脚本
-yum localinstall *.rpm
+yum localinstall * .rpm
 管理MySQL服务
 
 systemctl start mysqld
