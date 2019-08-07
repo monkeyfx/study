@@ -112,7 +112,7 @@ mysqldumpslow 命令
 
 
 得到返回记录集最多的10个SQL
-mysqldumpslow -s r -t 10 slow.log
+`mysqldumpslow -s r -t 10 slow.log`
 
 得到访问次数最多的10个SQL
 msyqldumpslow -s c -t 10 slow.sql
@@ -237,7 +237,7 @@ id
 
 MySql 存储引擎
 
-MyISAM
+MyISAM（读取快）
 
 优点
 读的性能比InnoDB高很多
@@ -263,6 +263,24 @@ InnoDB
 缺点
 不支持fulltext 索引（全文索引）
 行级锁并不绝对，当不确定扫描范围时，锁全表
+
+索引与数据时紧密绑捆的，没有使用压缩导致体积庞大
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
