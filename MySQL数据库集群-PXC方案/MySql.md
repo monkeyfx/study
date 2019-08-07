@@ -6,7 +6,7 @@ MySQL全局配置无法远程访问
 2.4 重启mysql服务
 service mysql restart
 3.1 查询user表
-# 登陆数据库后
+登陆数据库后
 use mysql;
 select host, user from user;
 3.2 修改地址权限
